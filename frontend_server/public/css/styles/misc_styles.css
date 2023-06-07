@@ -1,0 +1,50 @@
+header {
+    background-color: white;
+}
+
+body>div {
+    min-height: 50vh;
+
+}
+
+.err {
+    color: red;
+}
+
+.blue-btn-color, #reviewSubmit {
+    background-color: #002C3E;
+    color: white;
+}
+
+.blue-btn-color:hover, #reviewSubmit:hover, #adminTab a:hover {
+    background-color: #F7444e;
+    color: white;
+}
+
+#adminTab a {
+    color: #F7444e;
+}
+
+textarea {
+    resize: none;
+    width: 80%;
+    height: 8rem;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+#adminTab {
+    top: 83.31px;
+    background-color: #002C3E;
+}
+
+.search-container {
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.card-img-top {
+    height: 30rem;
+}
