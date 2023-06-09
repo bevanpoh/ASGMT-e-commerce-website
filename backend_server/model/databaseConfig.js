@@ -1,4 +1,4 @@
-//Admission No.: P2112745  
+//Admission No.: P2112745
 //Class: DAAA/1B02
 //Name: Bevan Poh
 
@@ -10,9 +10,8 @@ module.exports={
         var conn=mysql.createConnection({
             host:"localhost",
             user:"root",
-            password:"test",
-            database:"sp_it"
-
+            password: "root",
+            database: "sp_it"
         }
         );
 
